@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodID - AI Food Analysis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+            --secondary-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --surface-color: rgba(255, 255, 255, 0.05);
+            --surface-hover: rgba(255, 255, 255, 0.08);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-primary: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.6);
+            --glass-blur: blur(12px);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: #0F0F12;
+            background-image:
+                radial-gradient(circle at 15% 15%, rgba(255, 107, 107, 0.15) 0%, transparent 45%),
+                radial-gradient(circle at 85% 85%, rgba(79, 172, 254, 0.1) 0%, transparent 45%);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navbar */
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .badges {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            backdrop-filter: var(--glass-blur);
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.7) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Content Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 2rem;
+            align-items: start;
+            animation: slideUp 0.8s ease-out 0.2s backwards;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 1.5rem;
+            padding: 2rem;
+            backdrop-filter: var(--glass-blur);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Upload Area */
+        .upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: 1rem;
+            padding: 4rem 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .upload-area:hover,
+        .upload-area.dragover {
+            border-color: #FF6B6B;
+            background: rgba(255, 107, 107, 0.05);
+        }
+
+        .upload-icon-wrapper {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 142, 83, 0.1));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 2rem;
+            color: #FF6B6B;
+        }
+
+        .upload-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .upload-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .chip {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Preview State */
+        .preview-wrapper {
+            display: none;
+            position: relative;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+
+        .preview-image {
+            width: 100%;
+            display: block;
+            border-radius: 1rem;
+        }
+
+        .preview-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.75rem;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--primary-gradient);
+            color: white;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Results Panel */
+        .results-panel {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .panel-header {
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .result-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .result-item.top-match {
+            background: rgba(255, 107, 107, 0.08);
+            /* slight tint */
+            border-color: rgba(255, 107, 107, 0.3);
+        }
+
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .confidence-bg {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, rgba(255, 107, 107, 0.1), rgba(255, 107, 107, 0.05));
+            z-index: 1;
+            transition: width 1s ease-out;
+            width: 0%;
+        }
+
+        .match-label {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .match-score {
+            font-family: monospace;
+            color: #FF6B6B;
+            font-weight: 700;
+        }
+
+        /* States */
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 3rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            min-height: 300px;
+        }
+
+        .loading-state {
+            display: none;
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #FF6B6B;
+            border-radius: 50%;
+            animation: spin 1s infinite linear;
+            margin: 0 auto 1.5rem;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Stats Grid Footer */
+        .stats-footer {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 4rem;
+            animation: fadeIn 1s ease-out 0.5s backwards;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            border-right: 1px solid var(--border-color);
+        }
+
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff 0%, #aaa 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-desc {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-footer {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+
+            .stat-item {
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+            </svg>
+            FoodID
+        </div>
+        <div class="badges">
+            <div class="badge">
+                <span>⚡</span> ResNet50
+            </div>
+            <div class="badge">
+                <span>🎯</span> 110 Classes
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Identify Any Dish<br>in Seconds</h1>
+            <p>Advanced AI food recognition</p>
+        </div>
+
+        <div class="content-grid">
+            <!-- Upload Side -->
+            <div class="card">
+                <div id="uploadView">
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon-wrapper">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="17 8 12 3 7 8" />
+                                <line x1="12" y1="3" x2="12" y2="15" />
+                            </svg>
+                        </div>
+                        <div class="upload-title">Drop your food image here</div>
+                        <div class="upload-subtitle">or click to browse • Ctrl+V to paste</div>
+                        <div class="chip">Supports JPG, PNG up to 16MB</div>
+                    </div>
+                </div>
+
+                <div id="previewView" class="preview-wrapper">
+                    <img id="previewImage" class="preview-image" alt="Food Preview">
+                    <div class="preview-overlay">
+                        <button class="btn btn-secondary" id="resetBtn">Reset</button>
+                        <button class="btn btn-primary" id="analyzeBtn">Analyze Image</button>
+                    </div>
+                </div>
+
+                <input type="file" id="fileInput" hidden accept="image/jpeg,image/jpg,image/png">
+                <div id="errorMessage" style="color: #ff6b6b; margin-top: 1rem; display: none; text-align: center;">
+                </div>
+            </div>
+
+            <!-- Results Side -->
+            <div class="card results-panel">
+                <div class="panel-header">
+                    <h3>Analysis Results</h3>
+                </div>
+
+                <div id="emptyState" class="empty-state">
+                    <div style="font-size: 3rem; margin-bottom: 1rem; opacity: 0.3;">🍽️</div>
+                    <p>Waiting for image...</p>
+                </div>
+
+                <div id="loadingState" class="loading-state">
+                    <div class="spinner"></div>
+                    <p>Processing neural network...</p>
+                </div>
+
+                <div id="resultsContent" class="hidden">
+                    <!-- Results injected here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-footer">
+            <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-desc">Food Categories</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">~70%</div>
+                <div class="stat-desc">Top-5 Accuracy</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">&lt;1s</div>
+                <div class="stat-desc">Inference Time</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const uploadView = document.getElementById('uploadView');
+        const previewView = document.getElementById('previewView');
+        const previewImage = document.getElementById('previewImage');
+        const resetBtn = document.getElementById('resetBtn');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const errorMessage = document.getElementById('errorMessage');
+
+        const resultsContent = document.getElementById('resultsContent');
+        const emptyState = document.getElementById('emptyState');
+        const loadingState = document.getElementById('loadingState');
+
+        let currentFile = null;
+
+        // Event Listeners
+        uploadArea.addEventListener('click', () => fileInput.click());
+        fileInput.addEventListener('change', (e) => handleFile(e.target.files[0]));
+
+        // Drag & Drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            handleFile(e.dataTransfer.files[0]);
+        });
+
+        // Paste support
+        document.addEventListener('paste', (e) => {
+            const items = e.clipboardData.items;
+            for (let item of items) {
+                if (item.type.indexOf('image') !== -1) {
+                    const blob = item.getAsFile();
+                    handleFile(blob);
+                    break;
+                }
+            }
+        });
+
+        resetBtn.addEventListener('click', resetUI);
+
+        analyzeBtn.addEventListener('click', async () => {
+            if (!currentFile) return;
+
+            // UI Update
+            analyzeBtn.disabled = true;
+            analyzeBtn.innerText = 'Analyzing...';
+            emptyState.classList.add('hidden');
+            resultsContent.classList.add('hidden');
+            loadingState.style.display = 'block';
+
+            const formData = new FormData();
+            formData.append('file', currentFile);
+
+            try {
+                const response = await fetch('/api/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (data.success) {
+                    displayResults(data.predictions);
+                } else {
+                    showError(data.error || 'Something went wrong');
+                    resetResultsUI();
+                }
+            } catch (err) {
+                showError('Network error. Check connection.');
+                resetResultsUI();
+            } finally {
+                loadingState.style.display = 'none';
+                analyzeBtn.disabled = false;
+                analyzeBtn.innerText = 'Analyze Image';
+            }
+        });
+
+        function handleFile(file) {
+            if (!file) return;
+            if (!file.type.match('image.*')) {
+                showError('Please upload an image file (JPG, PNG)');
+                return;
+            }
+
+            currentFile = file;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImage.src = e.target.result;
+                uploadView.classList.add('hidden');
+                previewView.style.display = 'block';
+                errorMessage.style.display = 'none';
+
+                // Animated entry
+                previewView.style.opacity = 0;
+                setTimeout(() => previewView.style.opacity = 1, 10);
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function resetUI() {
+            currentFile = null;
+            fileInput.value = '';
+            uploadView.classList.remove('hidden');
+            previewView.style.display = 'none';
+            resetResultsUI();
+            errorMessage.style.display = 'none';
+        }
+
+        function resetResultsUI() {
+            emptyState.classList.remove('hidden');
+            resultsContent.classList.add('hidden');
+            loadingState.style.display = 'none';
+        }
+
+        function displayResults(predictions) {
+            resultsContent.innerHTML = '';
+            loadingState.style.display = 'none';
+            emptyState.classList.add('hidden');
+
+            predictions.forEach((pred, idx) => {
+                const isTop = idx === 0;
+                const div = document.createElement('div');
+                div.className = `result-item ${isTop ? 'top-match' : ''}`;
+                div.innerHTML = `
+                    <div class="result-row">
+                        <span class="match-label">${pred.class}</span>
+                        <span class="match-score">${pred.confidence.toFixed(1)}%</span>
+                    </div>
+                    <div class="confidence-bg" style="width: ${pred.confidence}%"></div>
+                `;
+                resultsContent.appendChild(div);
+            });
+
+            resultsContent.classList.remove('hidden');
+        }
+
+        function showError(msg) {
+            errorMessage.innerText = msg;
+            errorMessage.style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
