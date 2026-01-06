@@ -15,7 +15,7 @@ export const Landing = () => {
     {
       icon: 'fas fa-search',
       title: 'AI-Powered Recognition',
-      description: 'Advanced deep learning identifies 110+ dishes with 85%+ accuracy',
+      description: 'Advanced deep learning identifies 121 dishes with 85%+ accuracy',
     },
     {
       icon: 'fas fa-chart-pie',
@@ -35,8 +35,7 @@ export const Landing = () => {
   ];
 
   const stats_data = [
-    { value: '110+', label: 'Food Classes' },
-    { value: '174', label: 'Dish Database' },
+    { value: '121', label: 'Food Classes' },
     { value: '85%', label: 'Accuracy' },
     { value: '0.3s', label: 'Prediction Speed' },
   ];
@@ -68,7 +67,7 @@ export const Landing = () => {
                 </svg>
               </Link>
               <Link to="/dishes" className="btn-secondary">
-                Browse 174 Dishes
+                Browse 121 Dishes
               </Link>
             </div>
           </div>
@@ -88,7 +87,7 @@ export const Landing = () => {
                     <span className="confidence-label">Top Match</span>
                     <span className="confidence-value">94.3%</span>
                   </div>
-                  <div className="demo-dish">Pizza Margherita</div>
+                  <div className="demo-dish">Moroccan Couscous</div>
                   <div className="demo-bar">
                     <div className="demo-fill" style={{width: '94.3%'}}></div>
                   </div>
