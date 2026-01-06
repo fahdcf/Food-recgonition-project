@@ -1,0 +1,5428 @@
+{
+  "dishes": [
+    {
+      "id": "apple_pie",
+      "name": "Apple Pie",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "baby_back_ribs",
+      "name": "Baby Back Ribs",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "baklava",
+      "name": "Baklava",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "beef_carpaccio",
+      "name": "Beef Carpaccio",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "beef_tartare",
+      "name": "Beef Tartare",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "beet_salad",
+      "name": "Beet Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "beignets",
+      "name": "Beignets",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "bibimbap",
+      "name": "Bibimbap",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "bread_pudding",
+      "name": "Bread Pudding",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "breakfast_burrito",
+      "name": "Breakfast Burrito",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "bruschetta",
+      "name": "Bruschetta",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "caesar_salad",
+      "name": "Caesar Salad",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cannoli",
+      "name": "Cannoli",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "caprese_salad",
+      "name": "Caprese Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "carrot_cake",
+      "name": "Carrot Cake",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ceviche",
+      "name": "Ceviche",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cheese_plate",
+      "name": "Cheese Plate",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cheesecake",
+      "name": "Cheesecake",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chicken_curry",
+      "name": "Chicken Curry",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chicken_parmesan",
+      "name": "Chicken Parmesan",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chicken_quesadilla",
+      "name": "Chicken Quesadilla",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chicken_wings",
+      "name": "Chicken Wings",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chocolate_cake",
+      "name": "Chocolate Cake",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "chocolate_mousse",
+      "name": "Chocolate Mousse",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "churros",
+      "name": "Churros",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "clam_chowder",
+      "name": "Clam Chowder",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "club_sandwich",
+      "name": "Club Sandwich",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "crab_cakes",
+      "name": "Crab Cakes",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "creme_brulee",
+      "name": "Creme Brulee",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "croque_madame",
+      "name": "Croque Madame",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "croque_monsieur",
+      "name": "Croque Monsieur",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cruciferous_vegetables",
+      "name": "Cruciferous Vegetables",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cup_cakes",
+      "name": "Cup Cakes",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "cured_ham",
+      "name": "Cured Ham",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "curry_soup",
+      "name": "Curry Soup",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "custard_tart",
+      "name": "Custard Tart",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "daikon_radish",
+      "name": "Daikon Radish",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "danish",
+      "name": "Danish",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "deviled_eggs",
+      "name": "Deviled Eggs",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "dosas",
+      "name": "Dosas",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "double_stuf_oreo",
+      "name": "Double Stuf Oreo",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "doughnut",
+      "name": "Doughnut",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "duck_confit",
+      "name": "Duck Confit",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "dumplings",
+      "name": "Dumplings",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "edamame",
+      "name": "Edamame",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "eggs_benedict",
+      "name": "Eggs Benedict",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "eggs_royale",
+      "name": "Eggs Royale",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "elephant_ear",
+      "name": "Elephant Ear",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "escargots",
+      "name": "Escargots",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "farinata",
+      "name": "Farinata",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fassolada",
+      "name": "Fassolada",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "falafel",
+      "name": "Falafel",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fallen_chocolate_cake",
+      "name": "Fallen Chocolate Cake",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fettuccine_alfredo",
+      "name": "Fettuccine Alfredo",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "figs",
+      "name": "Figs",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fish_and_chips",
+      "name": "Fish And Chips",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fish_tacos",
+      "name": "Fish Tacos",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fondue",
+      "name": "Fondue",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "food_truck",
+      "name": "Food Truck",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "french_fries",
+      "name": "French Fries",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "french_onion_soup",
+      "name": "French Onion Soup",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "french_toast",
+      "name": "French Toast",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fried_calamari",
+      "name": "Fried Calamari",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fried_green_tomatoes",
+      "name": "Fried Green Tomatoes",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fried_rice",
+      "name": "Fried Rice",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fried_shrimp",
+      "name": "Fried Shrimp",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "frittata",
+      "name": "Frittata",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "frog_legs",
+      "name": "Frog Legs",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "frozen_yogurt",
+      "name": "Frozen Yogurt",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "fruit_salad",
+      "name": "Fruit Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "garlic_bread",
+      "name": "Garlic Bread",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gazpacho",
+      "name": "Gazpacho",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gelee",
+      "name": "Gelee",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "german_chocolate_cake",
+      "name": "German Chocolate Cake",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ghee",
+      "name": "Ghee",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ghost_pepper",
+      "name": "Ghost Pepper",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "giant_clam",
+      "name": "Giant Clam",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gnocchi",
+      "name": "Gnocchi",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "go_for_gold_pancakes",
+      "name": "Go For Gold Pancakes",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "goat_cheese_salad",
+      "name": "Goat Cheese Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "golden_retriever",
+      "name": "Golden Retriever",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "goulash",
+      "name": "Goulash",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grape_leaves",
+      "name": "Grape Leaves",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grapefruit",
+      "name": "Grapefruit",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grasshopper",
+      "name": "Grasshopper",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gratin",
+      "name": "Gratin",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gravy",
+      "name": "Gravy",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "greek_salad",
+      "name": "Greek Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "green_beans",
+      "name": "Green Beans",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "green_curry",
+      "name": "Green Curry",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "green_goddess_salad",
+      "name": "Green Goddess Salad",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "green_tea",
+      "name": "Green Tea",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gremolata",
+      "name": "Gremolata",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grey_poupon",
+      "name": "Grey Poupon",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grilled_cheese_sandwich",
+      "name": "Grilled Cheese Sandwich",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grilled_salmon",
+      "name": "Grilled Salmon",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "grits",
+      "name": "Grits",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ground_beef_tacos",
+      "name": "Ground Beef Tacos",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "guacamole",
+      "name": "Guacamole",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gyoza",
+      "name": "Gyoza",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "gyro",
+      "name": "Gyro",
+      "cuisine": "International",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_bissara",
+      "name": "Moroccan Bissara",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_couscous",
+      "name": "Moroccan Couscous",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_harira",
+      "name": "Moroccan Harira",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_kefta_tagine",
+      "name": "Moroccan Kefta Tagine",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_msemmen",
+      "name": "Moroccan Msemmen",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_pastilla",
+      "name": "Moroccan Pastilla",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_rfissa",
+      "name": "Moroccan Rfissa",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_tagine",
+      "name": "Moroccan Tagine",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_zaalouk",
+      "name": "Moroccan Zaalouk",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_baghrir",
+      "name": "Moroccan Baghrir",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_briwat",
+      "name": "Moroccan Briwat",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_chebakia",
+      "name": "Moroccan Chebakia",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_djaj_mhamer",
+      "name": "Moroccan Djaj Mhamer",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_fekkas",
+      "name": "Moroccan Fekkas",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_harsha",
+      "name": "Moroccan Harsha",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_khobz",
+      "name": "Moroccan Khobz",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_loubia",
+      "name": "Moroccan Loubia",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_makouda",
+      "name": "Moroccan Makouda",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_sefanj",
+      "name": "Moroccan Sefanj",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "moroccan_sellou",
+      "name": "Moroccan Sellou",
+      "cuisine": "Moroccan",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 10,
+        "carbs_g": 30,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        "Ingredient 1",
+        "Ingredient 2",
+        "Ingredient 3",
+        "Ingredient 4"
+      ],
+      "recipe": {
+        "prep_time_min": 20,
+        "cook_time_min": 30,
+        "steps": [
+          "Step 1: Prepare ingredients",
+          "Step 2: Cook main components",
+          "Step 3: Combine and finish",
+          "Step 4: Serve immediately"
+        ],
+        "tips": "This is a placeholder. Update with real recipe information."
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "donuts",
+      "name": "Donuts",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 452,
+        "protein_g": 5,
+        "carbs_g": 51,
+        "fat_g": 25,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for donuts",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best donuts",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "filet_mignon",
+      "name": "Filet Mignon",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 227,
+        "protein_g": 27,
+        "carbs_g": 0,
+        "fat_g": 13,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for filet mignon",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best filet mignon",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "foie_gras",
+      "name": "Foie Gras",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 462,
+        "protein_g": 11.4,
+        "carbs_g": 4.7,
+        "fat_g": 44,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for foie gras",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best foie gras",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "hamburger",
+      "name": "Hamburger",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 295,
+        "protein_g": 17,
+        "carbs_g": 24,
+        "fat_g": 14,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for hamburger",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best hamburger",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "hot_and_sour_soup",
+      "name": "Hot And Sour Soup",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 45,
+        "protein_g": 3,
+        "carbs_g": 6,
+        "fat_g": 1,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for hot and sour soup",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best hot and sour soup",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "hot_dog",
+      "name": "Hot Dog",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 290,
+        "protein_g": 10,
+        "carbs_g": 24,
+        "fat_g": 17,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for hot dog",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best hot dog",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "huevos_rancheros",
+      "name": "Huevos Rancheros",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 11,
+        "carbs_g": 15,
+        "fat_g": 11,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for huevos rancheros",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best huevos rancheros",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "hummus",
+      "name": "Hummus",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 166,
+        "protein_g": 8,
+        "carbs_g": 14,
+        "fat_g": 10,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for hummus",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best hummus",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ice_cream",
+      "name": "Ice Cream",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 207,
+        "protein_g": 3.5,
+        "carbs_g": 24,
+        "fat_g": 11,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for ice cream",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best ice cream",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "lasagna",
+      "name": "Lasagna",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 135,
+        "protein_g": 8,
+        "carbs_g": 11,
+        "fat_g": 6,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for lasagna",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best lasagna",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "lobster_bisque",
+      "name": "Lobster Bisque",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 120,
+        "protein_g": 6,
+        "carbs_g": 8,
+        "fat_g": 7,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for lobster bisque",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best lobster bisque",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "lobster_roll_sandwich",
+      "name": "Lobster Roll Sandwich",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 280,
+        "protein_g": 16,
+        "carbs_g": 32,
+        "fat_g": 10,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for lobster roll sandwich",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best lobster roll sandwich",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "macaroni_and_cheese",
+      "name": "Macaroni And Cheese",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 164,
+        "protein_g": 6.4,
+        "carbs_g": 18,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for macaroni and cheese",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best macaroni and cheese",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "macarons",
+      "name": "Macarons",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 380,
+        "protein_g": 5,
+        "carbs_g": 54,
+        "fat_g": 16,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for macarons",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best macarons",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "miso_soup",
+      "name": "Miso Soup",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 40,
+        "protein_g": 2,
+        "carbs_g": 5,
+        "fat_g": 1,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for miso soup",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best miso soup",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "mussels",
+      "name": "Mussels",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 172,
+        "protein_g": 24,
+        "carbs_g": 7,
+        "fat_g": 4.5,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for mussels",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best mussels",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "nachos",
+      "name": "Nachos",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 8,
+        "carbs_g": 32,
+        "fat_g": 16,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for nachos",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best nachos",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "omelette",
+      "name": "Omelette",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 154,
+        "protein_g": 11,
+        "carbs_g": 1,
+        "fat_g": 12,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for omelette",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best omelette",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "onion_rings",
+      "name": "Onion Rings",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 411,
+        "protein_g": 5,
+        "carbs_g": 39,
+        "fat_g": 26,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for onion rings",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best onion rings",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "oysters",
+      "name": "Oysters",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 68,
+        "protein_g": 7,
+        "carbs_g": 4,
+        "fat_g": 2,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for oysters",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best oysters",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pad_thai",
+      "name": "Pad Thai",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 188,
+        "protein_g": 7,
+        "carbs_g": 26,
+        "fat_g": 6,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pad thai",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pad thai",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "paella",
+      "name": "Paella",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 175,
+        "protein_g": 10,
+        "carbs_g": 18,
+        "fat_g": 7,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for paella",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best paella",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pancakes",
+      "name": "Pancakes",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 227,
+        "protein_g": 6,
+        "carbs_g": 28,
+        "fat_g": 10,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pancakes",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pancakes",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "panna_cotta",
+      "name": "Panna Cotta",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 222,
+        "protein_g": 3,
+        "carbs_g": 16,
+        "fat_g": 16,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for panna cotta",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best panna cotta",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "peking_duck",
+      "name": "Peking Duck",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 337,
+        "protein_g": 19,
+        "carbs_g": 0,
+        "fat_g": 28,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for peking duck",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best peking duck",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pho",
+      "name": "Pho",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 5,
+        "carbs_g": 15,
+        "fat_g": 1,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pho",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pho",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 266,
+        "protein_g": 11,
+        "carbs_g": 33,
+        "fat_g": 10,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pizza",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pizza",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pork_chop",
+      "name": "Pork Chop",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 231,
+        "protein_g": 24,
+        "carbs_g": 0,
+        "fat_g": 14,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pork chop",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pork chop",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "poutine",
+      "name": "Poutine",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 510,
+        "protein_g": 13,
+        "carbs_g": 50,
+        "fat_g": 28,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for poutine",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best poutine",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "prime_rib",
+      "name": "Prime Rib",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 338,
+        "protein_g": 19,
+        "carbs_g": 0,
+        "fat_g": 29,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for prime rib",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best prime rib",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "pulled_pork_sandwich",
+      "name": "Pulled Pork Sandwich",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for pulled pork sandwich",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best pulled pork sandwich",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ramen",
+      "name": "Ramen",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for ramen",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best ramen",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "ravioli",
+      "name": "Ravioli",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for ravioli",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best ravioli",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "red_velvet_cake",
+      "name": "Red Velvet Cake",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for red velvet cake",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best red velvet cake",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "risotto",
+      "name": "Risotto",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for risotto",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best risotto",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "samosa",
+      "name": "Samosa",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for samosa",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best samosa",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "sashimi",
+      "name": "Sashimi",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for sashimi",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best sashimi",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "scallops",
+      "name": "Scallops",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for scallops",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best scallops",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "seaweed_salad",
+      "name": "Seaweed Salad",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for seaweed salad",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best seaweed salad",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "shrimp_and_grits",
+      "name": "Shrimp And Grits",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for shrimp and grits",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best shrimp and grits",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "spaghetti_bolognese",
+      "name": "Spaghetti Bolognese",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for spaghetti bolognese",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best spaghetti bolognese",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "spaghetti_carbonara",
+      "name": "Spaghetti Carbonara",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for spaghetti carbonara",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best spaghetti carbonara",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "spring_rolls",
+      "name": "Spring Rolls",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for spring rolls",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best spring rolls",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "steak",
+      "name": "Steak",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for steak",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best steak",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "strawberry_shortcake",
+      "name": "Strawberry Shortcake",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for strawberry shortcake",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best strawberry shortcake",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for sushi",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best sushi",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "tacos",
+      "name": "Tacos",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for tacos",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best tacos",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "takoyaki",
+      "name": "Takoyaki",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for takoyaki",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best takoyaki",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "tiramisu",
+      "name": "Tiramisu",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for tiramisu",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best tiramisu",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "tuna_tartare",
+      "name": "Tuna Tartare",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for tuna tartare",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best tuna tartare",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    },
+    {
+      "id": "waffles",
+      "name": "Waffles",
+      "cuisine": "American",
+      "nutrition": {
+        "calories": 200,
+        "protein_g": 10,
+        "carbs_g": 25,
+        "fat_g": 8,
+        "serving_size_g": 100
+      },
+      "ingredients": [
+        {
+          "name": "Main ingredient",
+          "quantity": "100g"
+        }
+      ],
+      "recipe": {
+        "prep_time": "15 minutes",
+        "cook_time": "20 minutes",
+        "servings": 2,
+        "difficulty": "Medium",
+        "steps": [
+          "Prepare ingredients for waffles",
+          "Cook according to traditional recipe",
+          "Serve hot and enjoy"
+        ],
+        "tips": [
+          "Fresh ingredients make the best waffles",
+          "Adjust seasonings to taste"
+        ]
+      },
+      "similar_dishes": []
+    }
+  ]
+}
