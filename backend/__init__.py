@@ -23,10 +23,12 @@ def create_app(config_name='development'):
     
     # Register blueprints
     from .routes import predict_bp, dishes_bp, logs_bp, goals_bp
+    from .routes.images import images_bp
     
     app.register_blueprint(predict_bp, url_prefix='/api')
     app.register_blueprint(dishes_bp, url_prefix='/api')
     app.register_blueprint(logs_bp, url_prefix='/api')
     app.register_blueprint(goals_bp, url_prefix='/api')
+    app.register_blueprint(images_bp, url_prefix='/api')
     
     return app

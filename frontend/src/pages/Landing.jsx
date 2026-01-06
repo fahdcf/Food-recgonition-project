@@ -13,22 +13,22 @@ export const Landing = () => {
 
   const features = [
     {
-      icon: '🔍',
+      icon: 'fas fa-search',
       title: 'AI-Powered Recognition',
       description: 'Advanced deep learning identifies 110+ dishes with 85%+ accuracy',
     },
     {
-      icon: '📊',
+      icon: 'fas fa-chart-pie',
       title: 'Nutritional Insights',
       description: 'Instant macro breakdown - calories, protein, carbs, and fats',
     },
     {
-      icon: '🍳',
+      icon: 'fas fa-utensils',
       title: 'Recipe Library',
       description: 'Step-by-step cooking instructions for every dish',
     },
     {
-      icon: '📱',
+      icon: 'fas fa-mobile-alt',
       title: 'Meal Tracking',
       description: 'Log meals and monitor daily nutrition goals effortlessly',
     },
@@ -79,8 +79,7 @@ export const Landing = () => {
                 <div className="scan-line"></div>
                 <div className="scan-corners"></div>
                 <div className="placeholder-image">
-                  <span className="placeholder-icon">📸</span>
-                  <p>AI Recognition Demo</p>
+                  <img src="/couscous_15.png" alt="AI Recognition Demo - Couscous" className="demo-food-image" />
                 </div>
               </div>
               <div className="prediction-demo">
@@ -123,7 +122,7 @@ export const Landing = () => {
         <div className="features-grid">
           {features.map((feature, idx) => (
             <div key={idx} className="feature-card glass-card">
-              <div className="feature-icon">{feature.icon}</div>
+              <div className="feature-icon"><i className={feature.icon}></i></div>
               <h3 className="feature-title">{feature.title}</h3>
               <p className="feature-description">{feature.description}</p>
             </div>
@@ -140,7 +139,7 @@ export const Landing = () => {
         <div className="workflow-steps">
           <div className="workflow-step">
             <div className="step-number">1</div>
-            <div className="step-icon">📤</div>
+            <div className="step-icon"><i className="fas fa-cloud-upload-alt"></i></div>
             <h3 className="step-title">Upload Image</h3>
             <p className="step-description">
               Take a photo or upload from your device
@@ -149,7 +148,7 @@ export const Landing = () => {
           <div className="workflow-arrow">→</div>
           <div className="workflow-step">
             <div className="step-number">2</div>
-            <div className="step-icon">🧠</div>
+            <div className="step-icon"><i className="fas fa-brain"></i></div>
             <h3 className="step-title">AI Analysis</h3>
             <p className="step-description">
               Our model identifies the dish in milliseconds
@@ -158,7 +157,7 @@ export const Landing = () => {
           <div className="workflow-arrow">→</div>
           <div className="workflow-step">
             <div className="step-number">3</div>
-            <div className="step-icon">📊</div>
+            <div className="step-icon"><i className="fas fa-chart-bar"></i></div>
             <h3 className="step-title">Get Results</h3>
             <p className="step-description">
               View nutrition, recipes, and track your meal

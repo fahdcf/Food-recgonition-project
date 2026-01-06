@@ -10,9 +10,41 @@ export const DishDetail = () => {
   const [activeTab, setActiveTab] = useState('nutrition')
   const [quantity, setQuantity] = useState(100)
   const [mealType, setMealType] = useState('lunch')
+  const [dishImage, setDishImage] = useState(null)
+  const [imageLoading, setImageLoading] = useState(true)
 
   useEffect(() => {
     fetchDishDetails(id)
+  }, [id])
+
+  useEffect(() => {
+    if (id) {
+      // Fetch dish image from dataset
+      setImageLoading(true)
+      fetch(`/api/dishes/${id}/image`)
+        .then(response => {
+          if (response.ok) {
+            return response.blob()
+          }
+          throw new Error('Image not found')
+        })
+        .then(blob => {
+          const imageUrl = URL.createObjectURL(blob)
+          setDishImage(imageUrl)
+          setImageLoading(false)
+        })
+        .catch(() => {
+          setDishImage(null)
+          setImageLoading(false)
+        })
+    }
+
+    // Cleanup function to revoke object URL
+    return () => {
+      if (dishImage) {
+        URL.revokeObjectURL(dishImage)
+      }
+    }
   }, [id])
 
   if (loading) {
@@ -30,7 +62,7 @@ export const DishDetail = () => {
     return (
       <div className="dish-detail-page">
         <div className="error-state">
-          <span className="error-icon">⚠️</span>
+          <span className="error-icon"><i className="fas fa-exclamation-triangle"></i></span>
           <p>Dish not found</p>
           <button className="btn-back" onClick={() => navigate('/dishes')}>
             ← Back to Dishes
@@ -57,7 +89,28 @@ export const DishDetail = () => {
             ← Back to Dishes
           </button>
           <div className="header-content">
-            <div className="dish-icon-large">🍽️</div>
+            {/* Dish Image */}
+            <div className="dish-image-container">
+              {imageLoading ? (
+                <div className="image-placeholder">
+                  <div className="image-spinner"></div>
+                  <p>Loading image...</p>
+                </div>
+              ) : dishImage ? (
+                <img 
+                  src={dishImage} 
+                  alt={dish.name} 
+                  className="dish-image"
+                />
+              ) : (
+                <div className="image-placeholder">
+                  <span className="placeholder-icon">🍽️</span>
+                  <p>No image available</p>
+                </div>
+              )}
+            </div>
+            
+            {/* Dish Info */}
             <div className="header-text">
               <h1>{dish.name}</h1>
               <div className="cuisine-badges">
@@ -77,19 +130,19 @@ export const DishDetail = () => {
                 className={`tab-button ${activeTab === 'nutrition' ? 'active' : ''}`}
                 onClick={() => setActiveTab('nutrition')}
               >
-                📊 Nutrition
+                <i className="fas fa-chart-pie"></i> Nutrition
               </button>
               <button
                 className={`tab-button ${activeTab === 'recipe' ? 'active' : ''}`}
                 onClick={() => setActiveTab('recipe')}
               >
-                👨‍🍳 Recipe
+                <i className="fas fa-chef-hat"></i> Recipe
               </button>
               <button
                 className={`tab-button ${activeTab === 'ingredients' ? 'active' : ''}`}
                 onClick={() => setActiveTab('ingredients')}
               >
-                🥘 Ingredients
+                <i className="fas fa-bowl-food"></i> Ingredients
               </button>
             </div>
 
@@ -131,14 +184,14 @@ export const DishDetail = () => {
                     <>
                       <div className="recipe-meta">
                         <div className="meta-item">
-                          <span className="icon">⏱️</span>
+                          <span className="icon"><i className="fas fa-hourglass-start"></i></span>
                           <div>
                             <p className="meta-label">Prep Time</p>
                             <p className="meta-value">{dish.recipe.prep_time || 'N/A'}</p>
                           </div>
                         </div>
                         <div className="meta-item">
-                          <span className="icon">🔥</span>
+                          <span className="icon"><i className="fas fa-fire"></i></span>
                           <div>
                             <p className="meta-label">Cook Time</p>
                             <p className="meta-value">{dish.recipe.cook_time || 'N/A'}</p>
@@ -161,7 +214,7 @@ export const DishDetail = () => {
                       </div>
                       {dish.recipe.tips && (
                         <div className="recipe-tips">
-                          <p className="section-title">💡 Chef's Tips:</p>
+                          <p className="section-title"><i className="fas fa-lightbulb"></i> Chef's Tips:</p>
                           {Array.isArray(dish.recipe.tips) ? (
                             <ul>
                               {dish.recipe.tips.map((tip, idx) => (

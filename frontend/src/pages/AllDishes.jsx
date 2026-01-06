@@ -53,29 +53,44 @@ export const AllDishes = () => {
           </div>
         ) : allDishes.length === 0 ? (
           <div className="empty-state">
-            <div className="empty-icon">🔍</div>
+            <div className="empty-icon"><i className="fas fa-search"></i></div>
             <p>No dishes found. Try another search term!</p>
           </div>
         ) : (
           <div className="dishes-grid">
             {allDishes.map((dish) => (
               <Link key={dish.id} to={`/dishes/${dish.id}`} className="dish-card">
-                <div className="dish-card-header">
-                  <div className="dish-icon">🍽️</div>
-                  <div className="dish-cuisine-badge">{dish.cuisine}</div>
-                </div>
-
-                <h3 className="dish-name">{dish.name}</h3>
-
-                <div className="dish-stats">
-                  <div className="stat">
-                    <span className="stat-label">Calories</span>
-                    <span className="stat-value">{dish.calories}</span>
+                <div className="dish-card-image">
+                  <img 
+                    src={`/api/dishes/${dish.id}/image`}
+                    alt={dish.name}
+                    onError={(e) => {
+                      e.target.style.display = 'none'
+                      e.target.nextElementSibling.style.display = 'flex'
+                    }}
+                  />
+                  <div className="image-fallback" style={{display: 'none'}}>
+                    <span className="fallback-icon"><i className="fas fa-plate-wheat"></i></span>
                   </div>
                 </div>
 
-                <div className="card-footer">
-                  <span className="view-link">View Details →</span>
+                <div className="dish-card-content">
+                  <div className="dish-card-header">
+                    <div className="dish-cuisine-badge">{dish.cuisine}</div>
+                  </div>
+
+                  <h3 className="dish-name">{dish.name}</h3>
+
+                  <div className="dish-stats">
+                    <div className="stat">
+                      <span className="stat-label">Calories</span>
+                      <span className="stat-value">{dish.calories}</span>
+                    </div>
+                  </div>
+
+                  <div className="card-footer">
+                    <span className="view-link">View Details →</span>
+                  </div>
                 </div>
               </Link>
             ))}

@@ -93,6 +93,7 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   display: block;
+  color: #64748b;
 }
 
 .dishes-grid {
@@ -105,7 +106,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1.5rem;
-  padding: 1.75rem;
+  overflow: hidden;
   backdrop-filter: blur(12px);
   transition: all 0.3s;
   text-decoration: none;
@@ -121,15 +122,56 @@
   box-shadow: 0 12px 40px rgba(255, 107, 107, 0.15);
 }
 
+.dish-card-image {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(15, 15, 18, 0.5);
+}
+
+.dish-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover .dish-card-image img {
+  transform: scale(1.1);
+}
+
+.image-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 107, 107, 0.05);
+}
+
+.fallback-icon {
+  font-size: 3rem;
+  opacity: 0.3;
+  color: #94a3b8;
+}
+
+.dish-card-content {
+  padding: 1.75rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .dish-card-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .dish-icon {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .dish-cuisine-badge {

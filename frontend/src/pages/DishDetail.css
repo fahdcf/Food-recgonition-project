@@ -34,6 +34,10 @@
 .error-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #ff6b6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .error-state p {
@@ -67,6 +71,62 @@
   display: flex;
   align-items: flex-start;
   gap: 2rem;
+}
+
+/* Dish Image */
+.dish-image-container {
+  width: 280px;
+  height: 280px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: rgba(255, 107, 107, 0.05);
+  border: 1px solid rgba(255, 107, 107, 0.15);
+  flex-shrink: 0;
+  position: relative;
+}
+
+.dish-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.dish-image:hover {
+  transform: scale(1.05);
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 15, 18, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.image-placeholder .placeholder-icon {
+  font-size: 4rem;
+  opacity: 0.3;
+  margin-bottom: 1rem;
+}
+
+.image-placeholder p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.875rem;
+}
+
+.image-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 107, 107, 0.2);
+  border-top-color: #ff6b6b;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+  margin-bottom: 1rem;
 }
 
 .dish-icon-large {
@@ -136,15 +196,32 @@
   border-bottom: 3px solid transparent;
   transition: all 0.3s;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tab-button i {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.3s;
 }
 
 .tab-button:hover {
   color: #ffffff;
 }
 
+.tab-button:hover i {
+  color: #ffffff;
+}
+
 .tab-button.active {
   color: #ff6b6b;
   border-bottom-color: #ff6b6b;
+}
+
+.tab-button.active i {
+  color: #ff6b6b;
 }
 
 /* Tab Content */
@@ -234,6 +311,10 @@
 
 .meta-item .icon {
   font-size: 1.5rem;
+  color: #ff8e53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .meta-label {
@@ -302,6 +383,13 @@
   font-weight: 600;
   margin-bottom: 1rem;
   font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-title i {
+  color: #ff8e53;
 }
 
 .no-data {
