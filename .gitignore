@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration and generated application data
+.env
+.env.*
+!.env.example
+/data/food_app.db
+/data/food_app.db-*
+*.log
+/training_log.txt
+
+# Machine-local files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Private configuration and generated development artifacts
+AGENTS.md
+agents.md
+AGENT.md
+agent.md
+Claude.md
+CLAUDE.md
+claude.md
+*.pid
+*.bak
